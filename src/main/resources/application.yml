@@ -11,10 +11,9 @@ spring:
     console:
       enabled: true
       
-  server:
-    port: 5000
-
-
   sql:
     init:
       mode: never
+      
+server:
+  port: 5000
